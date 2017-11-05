@@ -1,18 +1,18 @@
 public class Employee {
     String name;
-    int age;
+    byte age;
     String position;
     double salary;
     /**
      * Это конструктор класса Employee
      */
-    public Employee (String name) {
+    Employee (String name) {
         this.name = name;
     }
     /**
      * Присвоение возраста работника переменной age
      */
-    public void empAge(int empAge) {
+    public void empAge(byte empAge) {
         age = empAge;
     }
     /**

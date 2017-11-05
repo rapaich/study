@@ -9,12 +9,12 @@ public class EmployeeTest {
         /*
          * Вызов методов для каждого объекта
          */
-        empOne.empAge(40);
+        empOne.empAge((byte)44);
         empOne.empPosition("Монтажник Разбегаево-Райккузи");
         empOne.empSalary(30000.00);
         empOne.printEmployeeInfo();
 
-        empTwo.empAge(35);
+        empTwo.empAge((byte)43);
         empTwo.empPosition("Монтажник всех направлений");
         empTwo.empSalary(40000);
         empTwo.printEmployeeInfo();
